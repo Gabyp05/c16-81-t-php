@@ -8,9 +8,12 @@ const Navbar = () => {
   
     return (
         <nav className="bg-primary w-full overflow-hidden">
-            <div className="w-full flex py-6 justify-between items-center navbar">
-                <img src={logo} alt="ArenaMobile" className="w-[170px]" />
-        
+            <div className="w-full flex py-6 justify-between items-center navbar">  
+            
+                <Link to="/">
+                    <img src={logo} alt="ArenaMobile" className="w-[170px]" />
+                </Link>
+
                 <ul className="list-none sm:flex hidden justify-end items-center flex-1">
                     {navLinks.map((nav, index) => (
                         <li 
