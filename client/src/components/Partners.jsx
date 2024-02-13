@@ -4,12 +4,12 @@ import styles from '../style';
 const Partners = () => {
   return (
     <section className={`flex md:flex-row flex-col items-center justify-between ${styles.paddingY} px-6 sm:px-16`}>
-        <div className='sm:mr-[42px]'>
+        <div>
             <hr className='w-[264px]'/>
             <h2 className='text-[20px]  text-secondary mt-2'>Orgullosos socios y afiliados</h2>
         </div>
         <div className='h[42px] w-fit'>
-            <ul className="flex flex-wrap justify-center sm:gap-[60px]">
+            <ul className="flex flex-wrap justify-center sm:gap-[60px] sm:gap-y-0">
                 {partners.map((partners, index) => (
                 <li key={index}>
                     <a
