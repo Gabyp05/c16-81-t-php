@@ -1,4 +1,4 @@
-import { activision, logitech, playstation, riotgames, samsung  } from "./assets";
+import { activision, logitech, playstation, riotgames, samsung  } from "../src/assets";
 
 export const navLinks = [
   {
@@ -26,22 +26,22 @@ export const navLinks = [
 export const partners = [
   {
     id: "activision",
-    logo: activision,
+    icon: activision,
   },
   {
     id: "logitech",
-    logo: logitech,
+    icon: logitech,
   },
   {
     id: "playstation",
-    logo: playstation,
+    icon: playstation,
   },
   {
     id: "riotgames",
-    logo: riotgames,
+    icon: riotgames,
   },
   {
     id: "samsung",
-    logo: samsung,
+    icon: samsung,
   },
 ];
