@@ -11,7 +11,14 @@ import asterisco from "./asterisco.svg";
 import arrow from "./arrow-up.svg";
 import userPlus from "./user-plus.png";
 import target from "./target-lock.png";
-
+import codMobile from "./cod-mobile.png";
+import clashOfClans from "./clasofclan.png/"; 
+import FreeFire from "./freefire.png"; 
+import clashRoyale from "./clash-royale.png"; 
+import Axie from "./axie.png"; 
+import mobileLegends from "./lol.png"; 
+import pubg from "./pubg.png"; 
+import brawlStar from "./brawl.png";
 
 export {
   logo,
@@ -26,5 +33,13 @@ export {
   asterisco,
   arrow,
   userPlus,
-  target
+  target,
+  codMobile,
+  clashOfClans, 
+  FreeFire, 
+  clashRoyale, 
+  Axie, 
+  mobileLegends, 
+  pubg, 
+  brawlStar
 };

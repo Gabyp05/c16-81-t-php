@@ -60,3 +60,80 @@
     }
 }
 
+/* Botones del slider personalizados */
+.slick-prev {
+    background: #787AA5;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    z-index: 2;
+}
+  
+.slick-next {
+    background: #787AA5;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    z-index: 2;
+}
+
+.slick-next {
+    right: -15px;
+}
+
+
+.slick-prev:before{
+    content: url(../src/assets/arrow-left.svg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+    opacity: 1;
+    color: #343549;
+    -webkit-font-smoothing: antialiased;
+}
+
+.slick-next:before{
+    content: url(../src/assets/arrow-right.svg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'slick';
+    line-height: 1;
+    opacity: 1;
+    color: #343549;
+    -webkit-font-smoothing: antialiased;
+}
+
+.slick-next:hover,
+.slick-prev:hover{
+    outline: none;
+    background: #E0E1EB;
+}
+
+.slider-container {
+    margin: auto;
+    max-width: 1300px;
+
+}
+
+@media (max-width: 480px) {
+    .slick-prev {
+        left: -20px;
+    }
+
+    .slick-next {
+        right: -20px;
+    }
+    
+    .slick-prev,
+    .slick-next {
+        background: #787AA5;
+        width: 35px;
+        height: 35px;
+        border-radius: 100%;
+        z-index: 2;
+    }
+}
