@@ -69,8 +69,7 @@ function PauseOnHover() {
   return (
     <>
     <section className={`${styles.paddingY} w-full xl:px-0 sm:px-16 lg:pr-0 px-6 `}>
-        <h1 className="flex-1 font-monse font-bold text-balance ss:text-[50px] text-[32px]
-        mb-4 text-secondary mx-auto">Juegos populares</h1>
+        
         <div className="slider-container ">
         <Slider {...settings}>
             <div>
