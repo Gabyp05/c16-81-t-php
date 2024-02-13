@@ -9,6 +9,8 @@ import riotgames from "./riotgames.webp";
 import samsung from "./samsung.webp";
 import asterisco from "./asterisco.svg";
 import arrow from "./arrow-up.svg";
+import userPlus from "./user-plus.png";
+import target from "./target-lock.png";
 
 
 export {
@@ -23,4 +25,6 @@ export {
   samsung,
   asterisco,
   arrow,
+  userPlus,
+  target
 };
