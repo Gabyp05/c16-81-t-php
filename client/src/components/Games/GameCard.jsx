@@ -8,8 +8,12 @@ export const GameCard = () => {
         {gameData.map((game) => (
             <div key={game.title} className="bg-card max-w-[500px] h-auto rounded-2xl flex flex-col items-center justify-center xxs:grid xxs:grid-flow-col gap-3 xxs:gap-0 md:gap-4 p-2 sm:p-4 shadow-md">
             <div className="flex items-center">
+            {game.title !== 'Axie Infinity' ? (
                 <a href={game.link} ><img src={game.src} alt={game.alt} className='w-[150px] h-auto object-cover rounded-xl' /></a>
-            </div>
+                ) : (
+                <a href={game.link} ><img src={game.src} alt={game.alt} className='w-[111px] sm:w-[150px] h-auto object-cover rounded-xl' /></a>
+                )}
+                </div>
             <div className="flex flex-col items-start">
                 <div className="flex flex-col flex-wrap items-center xxs:items-start  gap-4 xxs:gap-2 md:gap-4 xxs:max-w-[280px] sm:max-w-[300px]">
                 <a href={game.link} className='font-monse font-semibold text-secondary text-xl sm:text-[28px] px-2.5 md:px-0'>{game.title}</a>
